@@ -1,6 +1,19 @@
 # Hi, I'm Denis 👋
 
-<p align='center'> 
+Actively looking for a job as a Junior Unity Developer and now studying and working on my own project Skeleton Dungeon - 2D platformer in a medieval setting
+I study and write code in C #
+I work in Photoshop at the beginner level
+I work with animation and animator
+I design levels
+I run a project in Trello
+I form and manage the traffic police
+- 🔭 I’m currently working on my own project Skeleton Dungeon - 2D platformer in a medieval setting.
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me:
+<p> 
    <a href="https://t.me/DAPole">
        <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
    </a>
@@ -12,7 +25,8 @@
    </a>
 </p>
 
-<a href="https://steamcommunity.com/id/poleshchikov/"><img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/></a>
+- ⚡ Fun fact:
+<p><a href="https://steamcommunity.com/id/poleshchikov/"><img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/></a></p>
    
 <!--
 **Dapole/dapole** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
