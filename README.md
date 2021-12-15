@@ -8,9 +8,9 @@ Junior Unity Developer<br>
 &nbsp;&nbsp;&nbsp;&nbsp;📚 UNITY и С#. Геймдев от идеи до реализации - Джереми Гибсон Бонд<br>
 <br>
 Прошел курсы:
-<p><a href="https://www.devtodev.com/education/online-course/certificate/hI0a0al_slW3paW9NGv28A">Certificate</a> of Completion "INTRODUCTION TO GAME DEVELOPMENT"</p>
-<p><a href="https://www.devtodev.com/education/online-course/certificate/lZ8a0al_slS_paO0P23y8A">Certificate</a >of Completion "GAME DESIGN"</p>
-<p><a href="https://www.udemy.com/certificate/UC-f498d380-3e5a-4a67-bbd1-4bfe7b474fa7/">Certificate</a> of Completion "Complete Course. Building a 2D Platformer with Unity | 2020"</p>
+<p><a href="https://www.devtodev.com/education/online-course/certificate/hI0a0al_slW3paW9NGv28A">Certificate</a> of completion "Introduction to Game Development"</p>
+<p><a href="https://www.devtodev.com/education/online-course/certificate/lZ8a0al_slS_paO0P23y8A">Certificate</a> of completion "Game Design"</p>
+<p><a href="https://www.udemy.com/certificate/UC-f498d380-3e5a-4a67-bbd1-4bfe7b474fa7/">Certificate</a> of completion "Complete Course. Building a 2D Platformer with Unity | 2020"</p>
 <br>
 ⚡ Чем владею:
 <details>
