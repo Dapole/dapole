@@ -1,6 +1,6 @@
 ### Привет, меня зовут Денис 👋
 Junior Unity Developer<br>
-💬 Ссылка на <a href="https://docs.google.com/document/d/1BLlTkmKgc9YtZyXhoLxjqEJGSeKQg3KhLxpIpFQkvLk">CV</a><br>
+🌐 <a href="https://docs.google.com/document/d/1BLlTkmKgc9YtZyXhoLxjqEJGSeKQg3KhLxpIpFQkvLk">CV</a><br>
 🔭 Сейчас я работаю над своей игрой на движке Unity: "Skeleton Dungeon" – 2D-платформер в средневековом сеттинге.<br>
 На GitHub представлен пример моего кода "как есть". Это не финальный вариант, а процесс работы над проектом.<br><br>
 🌱 Что я сейчас изучаю:<br>
