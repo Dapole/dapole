@@ -1,4 +1,83 @@
-# Hi, I'm Denis 👋
+### Привет, меня зовут Денис 👋
+Я Unity Developer/Game Designer 
+
+🔭 Сейчас я работаю над своей игрой на движке Unity: "Skeleton Dungeon" – 2D-платформер в средневековом сеттинге.<br>
+На GitHub представлен пример моего кода "как есть", это не финальный вариант, а процесс работы над проектом.<br><br>
+🌱 Что я сейчас изучаю:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;📚 Гейм дизайн. Как создавать игру, в которую будут играть все - Джесси Шелл<br>
+&nbsp;&nbsp;&nbsp;&nbsp;📚 UNITY и С#. Геймдев от идеи до реализации - Джереми Гибсон Бонд<br>
+<br>
+Прошел курсы:
+<p><a href="https://www.devtodev.com/education/online-course/certificate/hI0a0al_slW3paW9NGv28A">Certificate</a> of Completion "INTRODUCTION TO GAME DEVELOPMENT"</p>
+<p><a href="https://www.devtodev.com/education/online-course/certificate/lZ8a0al_slS_paO0P23y8A">Certificate</a >of Completion "GAME DESIGN"</p>
+<p><a href="https://www.udemy.com/certificate/UC-f498d380-3e5a-4a67-bbd1-4bfe7b474fa7/">Certificate</a> of Completion "Complete Course. Building a 2D Platformer with Unity | 2020"</p>
+<br>
+⚡ Чем владею:
+<details>
+	<summary>Basic C#</summary>
+   <ul>
+      <li>Basic data types</li>
+      <li>Variables and Functions</li>
+      <li>If Statements</li>
+      <li>Loops (for and foreach)</li>
+      <li>Scope and Access Modifiers</li>
+      <li>Arrays</li>
+      <li>Enumerations</li>
+      <li>Switch</li>
+      <li>Interfaces</li>
+      <li>Coroutines</li>
+    </ul>
+</details>
+<details>
+<summary>UNITY Basic experience</summary>
+   <ul>
+      <li>Monobehaviour</li>
+      <li>GameObject</li>
+      <li>Transform</li>
+      <li>Quaternion</li>
+      <li>Component/GetComponent</li>
+      <li>Destroy</li>
+      <li>Input</li>
+      <li>Time.deltaTime</li>
+      <li>UI Components (RectTransform, Text, Image)</li>
+      <li>Camera</li>
+      <li>ParticleSystem</li>
+      <li>AudioClip/AudioSource</li>
+      <li>Color</li>
+      <li>Vector3</li>
+   </ul>
+</details>
+<p>📫 Со мной можно связаться через:<br>
+  <a href="https://t.me/DAPole">
+       <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
+  </a>
+  <a href="mailto:dapoleshchikov@gmail.com">
+       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+   </a>
+  <a href="https://www.linkedin.com/in/denis-poleshchikov-828635218/">
+       <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
+
+<!--
+**Dapole/dapole** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+
+<a href="https://steamcommunity.com/id/poleshchikov/">
+       <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/>
+   </a>
+
+/// En
 
 Actively looking for a job as a Junior Unity Developer and now studying and working on my own project Skeleton Dungeon - 2D platformer in a medieval setting
 I study and write code in C #
@@ -29,28 +108,12 @@ I form and manage the traffic police
 - ⚡ Fun fact:
 <p><a href="https://steamcommunity.com/id/poleshchikov/"><img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/></a></p>
    
-<!--
-**Dapole/dapole** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<a href="https://steamcommunity.com/id/poleshchikov/">
-       <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/>
-   </a>
-
 
 
 
 /// ДОП ЭЛЕМЕНТЫ
+
+https://docs.google.com/document/d/1BLlTkmKgc9YtZyXhoLxjqEJGSeKQg3KhLxpIpFQkvLk/edit?usp=sharing
 <p align='center'>
    <a href="https://github-readme-stats.vercel.app/api?username=Dapole&show_icons=true&count_private=true"><img
            height=150
