@@ -8,10 +8,13 @@ public class Player : MonoBehaviour
     private float _speedMultiplier = 2;
     [SerializeField] private GameObject _laserPrefab;
     [SerializeField] private GameObject _laserPrefabTriple;
+    [SerializeField] private GameObject _shields;
     [SerializeField] private int _lives = 3;
+    [SerializeField] private int _score;
 
     private float _nextFire = 0.0f;
     private SpawnManager _spawnManager;
+    private UIManager _uiManager;
 
     public float fireRate = 0.25f;
     public bool _tripleShootActive = false;
@@ -22,9 +25,14 @@ public class Player : MonoBehaviour
     {
         transform.position = new Vector3(0, 0, 0);
         _spawnManager = GameObject.Find("Spawn_Manager").GetComponent<SpawnManager>();
+        _uiManager = GameObject.Find("Canvas").GetComponent<UIManager>();
         if (_spawnManager == null)
         {
-            Debug.LogError("Spawn Manager = NULL");
+            Debug.LogError("The Spawn Manager is NULL");
+        }
+        if (_uiManager == null)
+        {
+            Debug.LogError("The UI Manager is NULL");
         }
     }
 
@@ -78,10 +86,12 @@ public class Player : MonoBehaviour
     {
         if (_shieldActive == true)
         {
+            _shieldActive = false;
+            _shields.SetActive(false);
             return;
         }
-
         _lives -= 1;
+        _uiManager.UpdateLives(_lives);
         if (_lives < 1)
         {
             Die();
@@ -123,12 +133,20 @@ public class Player : MonoBehaviour
     public void ShieldsActive()
     {
         _shieldActive = true;
+        _shields.SetActive(true);
         StartCoroutine(ShieldsDownRoutine());
     }
 
     IEnumerator ShieldsDownRoutine()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(25f);
         _shieldActive = false;
+        _shields.SetActive(false);
+    }
+
+    public void AddScore(int x)
+    {
+        _score += x;
+        _uiManager.UpdateScore(_score);
     }
 }
