@@ -13,6 +13,11 @@ public class SpawnManager : MonoBehaviour
 
     void Start()
     {
+        StartSpawning();
+    }
+
+    public void StartSpawning()
+    {
         StartCoroutine(SpawnRoutineAsteroid());
         StartCoroutine(SpawnRoutineEnemy());
         StartCoroutine(SpawnRoutinePowerUp());

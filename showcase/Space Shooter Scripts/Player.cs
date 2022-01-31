@@ -5,16 +5,19 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private float _speed = 3.5f;
-    private float _speedMultiplier = 2;
+    [SerializeField] private float _speedMultiplier = 2;
     [SerializeField] private GameObject _laserPrefab;
     [SerializeField] private GameObject _laserPrefabTriple;
     [SerializeField] private GameObject _shields;
+    [SerializeField] private GameObject _rightEngine, _leftEngine;
     [SerializeField] private int _lives = 3;
     [SerializeField] private int _score;
+    [SerializeField] private AudioClip _laserSoundClip;
 
     private float _nextFire = 0.0f;
     private SpawnManager _spawnManager;
     private UIManager _uiManager;
+    private AudioSource _audioSource;
 
     public float fireRate = 0.25f;
     public bool _tripleShootActive = false;
@@ -26,6 +29,7 @@ public class Player : MonoBehaviour
         transform.position = new Vector3(0, 0, 0);
         _spawnManager = GameObject.Find("Spawn_Manager").GetComponent<SpawnManager>();
         _uiManager = GameObject.Find("Canvas").GetComponent<UIManager>();
+        _audioSource = GetComponent<AudioSource>();
         if (_spawnManager == null)
         {
             Debug.LogError("The Spawn Manager is NULL");
@@ -33,6 +37,14 @@ public class Player : MonoBehaviour
         if (_uiManager == null)
         {
             Debug.LogError("The UI Manager is NULL");
+        }
+        if (_audioSource == null)
+        {
+            Debug.LogError("AudioSource on the player is NULL");
+        }
+        else
+        {
+            _audioSource.clip = _laserSoundClip;
         }
     }
 
@@ -80,6 +92,7 @@ public class Player : MonoBehaviour
         {
             Instantiate(_laserPrefab,  transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity);
         }
+        _audioSource.Play();
     }
 
     public void Damage()
@@ -90,8 +103,16 @@ public class Player : MonoBehaviour
             _shields.SetActive(false);
             return;
         }
-        _lives -= 1;
+        _lives--;
         _uiManager.UpdateLives(_lives);
+        if (_lives == 2)
+        {
+            _rightEngine.SetActive(true);
+        }
+        else if (_lives == 1)
+        {
+            _leftEngine.SetActive(true);
+        }
         if (_lives < 1)
         {
             Die();
