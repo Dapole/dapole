@@ -172,4 +172,6 @@ https://img.shields.io/badge/Todoist-E44332?style=for-the-badge&logo=todoist&log
 
 https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 
+<img src="https://assets.worldofwarcraft.com/static/components/Logo/Logo-horde.2a80e0466e51d85c8cf60336e16fe8b8.png/>
+
 -->
