@@ -51,7 +51,7 @@ Junior Unity Developer<br>
 <br>
 <p>Подробная информация о моем игровом опыте в таблице <a href="https://goo.su/9wdl">https://goo.su/9wdl</a></p>
 <br>
-<p>📫 Со мной можно связаться через:<br>
+<p>📫 How to reach me:<br>
   <a href="https://t.me/DAPole">
        <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
