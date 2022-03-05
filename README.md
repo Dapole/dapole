@@ -73,7 +73,7 @@ I design levels
 I run a project in Trello
 I form and manage the traffic police
 - 🔭 I’m currently working on my own project Skeleton Dungeon - 2D platformer in a medieval setting.
-- 🌱 I’m currently learning ...
+- 🌱 I’m currently learning game design, C# and Unity engine.
 - &nbsp;&nbsp;&nbsp;&nbsp;📚 Introduction to Game Design, Prototyoing, and Development - Jeremy Gibson Bond<br>
 - 🌱 I completed the courses:
 <p><a href="https://www.devtodev.com/education/online-course/certificate/hI0a0al_slW3paW9NGv28A">Certificate</a> of Completion "INTRODUCTION TO GAME DEVELOPMENT"</p>
