@@ -63,7 +63,6 @@ Junior Unity Developer<br>
   </a>
 </p>
 
-<!--
 **Dapole/dapole** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -92,6 +91,7 @@ I run a project in Trello
 I form and manage the traffic police
 - 🔭 I’m currently working on my own project Skeleton Dungeon - 2D platformer in a medieval setting.
 - 🌱 I’m currently learning ...
+- &nbsp;&nbsp;&nbsp;&nbsp;📚 Introduction to Game Design, Prototyoing, and Development - Jeremy Gibson Bond<br>
 - 🌱 I completed the courses:
 <p><a href="https://www.devtodev.com/education/online-course/certificate/hI0a0al_slW3paW9NGv28A">Certificate</a> of Completion "INTRODUCTION TO GAME DEVELOPMENT"</p>
 <p><a href="https://www.devtodev.com/education/online-course/certificate/lZ8a0al_slS_paO0P23y8A">Certificate</a> of Completion "GAME DESIGN"</p>
@@ -113,7 +113,8 @@ I form and manage the traffic police
 <p><a href="https://steamcommunity.com/id/poleshchikov/"><img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/></a></p>
    
 
-
+<!--
+	  Скрытая часть
 
 /// ДОП ЭЛЕМЕНТЫ
 
