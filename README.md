@@ -48,7 +48,10 @@ Junior Unity Developer<br>
       <li>Vector3</li>
    </ul>
 </details>
-<p>📫 Со мной можно связаться через:<br>
+<br>
+<p>Подробная информация о моем игровом опыте в таблице <a href="https://goo.su/9wdl">https://goo.su/9wdl</a></p>
+<br>
+<p>📫 How to reach me:<br>
   <a href="https://t.me/DAPole">
        <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
@@ -60,24 +63,6 @@ Junior Unity Developer<br>
   </a>
 </p>
 
-<!--
-**Dapole/dapole** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<a href="https://steamcommunity.com/id/poleshchikov/">
-       <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/>
-   </a>
-
 /// En
 
 Actively looking for a job as a Junior Unity Developer and now studying and working on my own project Skeleton Dungeon - 2D platformer in a medieval setting
@@ -88,7 +73,8 @@ I design levels
 I run a project in Trello
 I form and manage the traffic police
 - 🔭 I’m currently working on my own project Skeleton Dungeon - 2D platformer in a medieval setting.
-- 🌱 I’m currently learning ...
+- 🌱 I’m currently learning game design, C# and Unity engine.
+- &nbsp;&nbsp;&nbsp;&nbsp;📚 Introduction to Game Design, Prototyoing, and Development - Jeremy Gibson Bond<br>
 - 🌱 I completed the courses:
 <p><a href="https://www.devtodev.com/education/online-course/certificate/hI0a0al_slW3paW9NGv28A">Certificate</a> of Completion "INTRODUCTION TO GAME DEVELOPMENT"</p>
 <p><a href="https://www.devtodev.com/education/online-course/certificate/lZ8a0al_slS_paO0P23y8A">Certificate</a> of Completion "GAME DESIGN"</p>
@@ -110,7 +96,25 @@ I form and manage the traffic police
 <p><a href="https://steamcommunity.com/id/poleshchikov/"><img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/></a></p>
    
 
+<!--
+	  Скрытая часть
 
+**Dapole/dapole** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+
+<a href="https://steamcommunity.com/id/poleshchikov/">
+       <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/>
+   </a>
 
 /// ДОП ЭЛЕМЕНТЫ
 
@@ -168,5 +172,7 @@ https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoC
 https://img.shields.io/badge/Todoist-E44332?style=for-the-badge&logo=todoist&logoColor=white
 
 https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+
+<img src="https://assets.worldofwarcraft.com/static/components/Logo/Logo-horde.2a80e0466e51d85c8cf60336e16fe8b8.png/>
 
 -->
