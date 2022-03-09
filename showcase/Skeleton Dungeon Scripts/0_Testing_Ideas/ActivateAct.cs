@@ -9,7 +9,7 @@ public class ActivateAct : MonoBehaviour
 
     void Start()
     {
-        animator = GetComponent<Animator>();        
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -17,7 +17,6 @@ public class ActivateAct : MonoBehaviour
         if (isActivated)
         {
            animator.SetTrigger("activate");
-           isActivated = false;
         }
     }
 

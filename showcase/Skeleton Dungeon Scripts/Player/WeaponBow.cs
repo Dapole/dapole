@@ -6,11 +6,12 @@ public class WeaponBow : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject arrowPrefab;
+    
+    private Animator _animator;
 
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
-    private Animator _animator;
 
 
     void Update()

@@ -5,10 +5,8 @@ using UnityEngine.UI;
 
 public class WeaponScroll : MonoBehaviour
 {
-   public GameObject Weapon1;
-   public GameObject Weapon2;
-   public GameObject Weapon3;
-   public int MaxWeapon = 3;
+   [SerializeField] private GameObject Weapon1, Weapon2, Weapon3;
+   private int MaxWeapon = 3;
 
    private int ScrolInt;
 
@@ -18,19 +16,25 @@ public class WeaponScroll : MonoBehaviour
        {
            Weapon1.SetActive(true);
            Weapon2.SetActive(false);
+           GetComponent<PlayerCombat>().enabled = false;
            Weapon3.SetActive(false);
+           GetComponent<WeaponBow>().enabled = false;
         }
         if (ScrolInt == 1)
         {
             Weapon1.SetActive(false);
             Weapon2.SetActive(true);
+            GetComponent<PlayerCombat>().enabled = true;
             Weapon3.SetActive(false);
+            GetComponent<WeaponBow>().enabled = false;
         }
         if (ScrolInt ==2)
         {
             Weapon1.SetActive(false);
             Weapon2.SetActive(false);
+            GetComponent<PlayerCombat>().enabled = false;
             Weapon3.SetActive(true);
+            GetComponent<WeaponBow>().enabled = true;
         }
         if (ScrolInt >= MaxWeapon)
         {

@@ -6,8 +6,10 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private GameObject gameOverCanvas;
+    [SerializeField] private GameObject[] _uiManagerLives;
     [SerializeField] private Slider healthSlider;
     [SerializeField] private float maxHealth = 100;
+    [SerializeField] private int _lives = 3;
 
     private Animator _animator;
     private float currentHealth;
@@ -28,6 +30,20 @@ public class PlayerHealth : MonoBehaviour
         InitHealth();
         if (currentHealth <= 0f)
         {
+            Die();
+        }
+        _lives--;
+        if (_lives == 2)
+        {
+            _uiManagerLives[2].SetActive(false);
+        }
+        else if (_lives == 1)
+        {
+            _uiManagerLives[1].SetActive(false);
+        }
+        if (_lives < 1)
+        {
+            _uiManagerLives[0].SetActive(false);
             Die();
         }
     }

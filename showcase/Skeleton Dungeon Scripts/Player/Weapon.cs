@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    [SerializeField] private float damage = 33f;
+    [SerializeField] private float damage = 4f;
     private AttackController _attackController;
 
     private void Start()

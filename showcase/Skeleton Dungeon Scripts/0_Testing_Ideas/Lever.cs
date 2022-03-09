@@ -11,12 +11,23 @@ public class Lever : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        // actObject.GetComponent<ActivateAct>();
+        if (actObject != null)
+        {
+            actObject.GetComponent<ActivateAct>();
+        }
     }
 
     public void ActivateLever()
     {
-        actObject.Activate();
-        animator.SetTrigger("activate");
+        if (actObject != null)
+        {
+            actObject.Activate();
+            animator.SetTrigger("activate");
+        }
+        else
+        {
+            Debug.Log("Not work" + gameObject.name + "actObject = NULL");
+        }
+        
     }
 }

@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour
 
     private Rigidbody2D _rb;
     private Transform _playerTransform;
+    private Animator animator;
     private Vector2 _leftBoundaryPosition;
     private Vector2 _rightBoundaryPosition;
     private Vector2 _nextPoint;
@@ -22,11 +23,11 @@ public class EnemyController : MonoBehaviour
     private bool _isChasingPlayer;
     private bool _colliderWithPlayer;
 
+    private float _speed;
+
     private float _waitTime;
     private float _chaseTime;
     private float _walkSpeed;
-
-    // float horizontaMove = 0f;
 
     public bool IsFacingRight 
     {
@@ -42,6 +43,7 @@ public class EnemyController : MonoBehaviour
 
     private void Start()
     {
+        animator = GetComponentInChildren<Animator>();
         _playerTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         _rb = GetComponent<Rigidbody2D>();
         _leftBoundaryPosition = transform.position;
@@ -52,8 +54,6 @@ public class EnemyController : MonoBehaviour
     }
     private void Update()
     {
-       // horizontaMove = transform.position;
-       // animator.SetFloat("Speed", Mathf.Abs(horizontaMove));
         if (_isChasingPlayer)
         {
             StartChasingTimer();            
@@ -61,6 +61,7 @@ public class EnemyController : MonoBehaviour
         if (_isWait && !_isChasingPlayer)  
         {
            StartWaitTimer();
+           animator.SetBool("IsWaiting", true);
         }
         if (ShouldWait())
         {
@@ -91,6 +92,7 @@ public class EnemyController : MonoBehaviour
             _nextPoint.x *= -1;
         }
         _rb.MovePosition((Vector2)transform.position + _nextPoint);
+        animator.SetBool("IsWaiting", false);
     }
     private void ChasingPlayer()
     {
@@ -146,7 +148,7 @@ public class EnemyController : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawLine(_leftBoundaryPosition, _rightBoundaryPosition);
     }
-    void Flip ()  // Разворот
+    void Flip ()
     {
         _isFacingRight= !_isFacingRight;
         Vector3 playerScale = enemyModelTransform.localScale;

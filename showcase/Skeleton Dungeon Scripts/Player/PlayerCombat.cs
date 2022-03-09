@@ -10,7 +10,7 @@ public class PlayerCombat : MonoBehaviour
     private Animator _animator;
 
     public float attackRange = 0.5f;
-    public int attackDamage = 40;
+    public int attackDamage = 4;
 
   //  public float attackRate = 2f;
   //  float nextAttackTime = 0f;
@@ -34,7 +34,7 @@ public class PlayerCombat : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         foreach (Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<EnemyHealthB>().TakeDamage(attackDamage);
+            enemy.GetComponent<EnemyHealth>().ReduceHealth(attackDamage);
         }
     }
 

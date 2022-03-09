@@ -4,28 +4,32 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    [SerializeField] private float health = 100f;
+    [SerializeField] private float health = 4f;
 
     private Animator _animator;
 
     private void Start()
     {
-        _animator = GetComponent<Animator>();
+        _animator = GetComponentInChildren<Animator>();
     }
 
     public void ReduceHealth(float damage)
     {
         health -= damage;
-        //_animation.SetTrigger("Take damage"); - получение урона
+        _animator.SetTrigger("Hurt");
         if (health <=0f)
         {
-        //    _animator.SetTrigger("Die");
             Die();
         }
     }
 
     private void Die()
     {
-        gameObject.SetActive(false);
+        Debug.Log("Enemy died!");
+        _animator.SetBool("IsDead", true);
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<EnemyVision>().enabled = false;
+        GetComponent<EnemyController>().enabled = false;
+        this.enabled = false;
     }
 }

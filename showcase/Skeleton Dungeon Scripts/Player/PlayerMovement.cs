@@ -5,36 +5,40 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private FixedJoystick fixedJoystick;
+    [SerializeField] private AudioSource _jumpSound, _hurtSound;
+    [SerializeField] private AudioClip _jumpCpil, _hurtClip;
+    [SerializeField] public float runSpeed = 40f; // Скрипт Blue_potion обращается к переменной, нужно исправить этот косяк
     
     public CharacterController2D controller;
 
-    public float runSpeed = 40f;
+    private float horizontaMove = 0f;
 
     private bool isFinish = false;
     private bool isLever = false;
     private bool isDoor = false;
+    private bool jump = false;
 
     private Animator animator;
+    private Rigidbody2D rb;
     private Finish finish;
     private Lever lever;
-    private AudioSource _jumpSound;
 
-    float horizontaMove = 0f;
-    bool jump = false;
     
     void Start()
     {
-        finish = GameObject.FindGameObjectWithTag("Finish").GetComponent<Finish>();
-        lever = FindObjectOfType<Lever>();
-        _jumpSound = GetComponent<AudioSource>();
+      finish = GameObject.FindGameObjectWithTag("Finish").GetComponent<Finish>();
+      lever = FindObjectOfType<Lever>();
+      _jumpSound = GetComponent<AudioSource>();
+      rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
         animator = GetComponentInChildren<Animator>();
         horizontaMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-        // horizontaMove = fixedJoystick.Horizontal * runSpeed;
+        animator.SetFloat("VelocityY", rb.velocity.y);
         animator.SetFloat("Speed", Mathf.Abs(horizontaMove));
+        animator.SetBool("IsJumping", jump);
         if (Input.GetButtonDown("Jump"))
         {
           Jump();
@@ -54,7 +58,6 @@ public class PlayerMovement : MonoBehaviour
     {
       jump = true;
       _jumpSound.Play();
-      animator.SetBool("IsJumping", true);
     }
 
     public void Use()

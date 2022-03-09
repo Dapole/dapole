@@ -5,7 +5,7 @@ using UnityEngine;
 public class Arrow : MonoBehaviour
 {
     public float speed = 20f;
-    public int damage = 20;
+    public int damage = 6;
     public Rigidbody2D rb;
 
     private Lever lever;
@@ -18,11 +18,11 @@ public class Arrow : MonoBehaviour
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
         Debug.Log(hitInfo.name);
-        EnemyHealthB enemy = hitInfo.GetComponent<EnemyHealthB>();
+        EnemyHealth enemy = hitInfo.GetComponent<EnemyHealth>();
         Lever lever = FindObjectOfType<Lever>();
         if (enemy != null)
         {
-            enemy.TakeDamage(damage);            
+            enemy.ReduceHealth(damage);            
         }
         if (lever != null)
         {
