@@ -63,6 +63,8 @@ Junior Unity Developer<br>
   </a>
 </p>
 
+<!--
+	  Скрытая часть
 /// En
 
 Actively looking for a job as a Junior Unity Developer and now studying and working on my own project Skeleton Dungeon - 2D platformer in a medieval setting
@@ -96,8 +98,7 @@ I form and manage the traffic police
 <p><a href="https://steamcommunity.com/id/poleshchikov/"><img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white"/></a></p>
    
 
-<!--
-	  Скрытая часть
+
 
 **Dapole/dapole** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
