@@ -81,6 +81,9 @@ I form and manage the traffic police
 <p><a href="https://www.devtodev.com/education/online-course/certificate/hI0a0al_slW3paW9NGv28A">Certificate</a> of Completion "INTRODUCTION TO GAME DEVELOPMENT"</p>
 <p><a href="https://www.devtodev.com/education/online-course/certificate/lZ8a0al_slS_paO0P23y8A">Certificate</a> of Completion "GAME DESIGN"</p>
 <p><a href="https://www.udemy.com/certificate/UC-f498d380-3e5a-4a67-bbd1-4bfe7b474fa7/"><img src="https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=Udemy&logoColor=white"/></a> Certificate of Completion "Complete Course. Building a 2D Platformer with Unity | 2020"</p>
+
+I do 
+
 - 📫 How to reach me:
 <p> 
    <a href="https://t.me/DAPole">
