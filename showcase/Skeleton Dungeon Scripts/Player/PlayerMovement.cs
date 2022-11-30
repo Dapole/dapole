@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
     
     void Start()
     {
-      finish = GameObject.FindGameObjectWithTag("Finish").GetComponent<Finish>();
+      // finish = GameObject.FindGameObjectWithTag("Finish").GetComponent<Finish>();
       lever = FindObjectOfType<Lever>();
       _jumpSound = GetComponent<AudioSource>();
       rb = GetComponent<Rigidbody2D>();

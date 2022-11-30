@@ -52,6 +52,7 @@ public class EnemyController : MonoBehaviour
         _chaseTime = timeToChase;
         _walkSpeed = patrolSpeed;
     }
+
     private void Update()
     {
         if (_isChasingPlayer)
@@ -85,6 +86,7 @@ public class EnemyController : MonoBehaviour
             Patrol();         
         }
     }
+
     private void Patrol()
     {
         if (!_isFacingRight)
@@ -94,6 +96,7 @@ public class EnemyController : MonoBehaviour
         _rb.MovePosition((Vector2)transform.position + _nextPoint);
         animator.SetBool("IsWaiting", false);
     }
+
     private void ChasingPlayer()
     {
         float distance = DistanceToPlayer();
@@ -111,6 +114,7 @@ public class EnemyController : MonoBehaviour
         }
         _rb.MovePosition((Vector2)transform.position + _nextPoint);
     }
+
     private float DistanceToPlayer()
     {
         return _playerTransform.position.x - transform.position.x;
@@ -126,6 +130,7 @@ public class EnemyController : MonoBehaviour
         }
 
     }
+
     private void StartChasingTimer()
     {
         _chaseTime -= Time.deltaTime;
@@ -136,6 +141,7 @@ public class EnemyController : MonoBehaviour
             _walkSpeed = patrolSpeed;
         }
     }
+
     private bool ShouldWait()
     {
         bool isOutOfRightBoundary = _isFacingRight && transform.position.x >= _rightBoundaryPosition.x;
@@ -143,11 +149,13 @@ public class EnemyController : MonoBehaviour
 
         return isOutOfLeftBoundary || isOutOfRightBoundary;
     }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(_leftBoundaryPosition, _rightBoundaryPosition);
     }
+    
     void Flip ()
     {
         _isFacingRight= !_isFacingRight;

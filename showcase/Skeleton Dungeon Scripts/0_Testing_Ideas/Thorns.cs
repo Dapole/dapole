@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Thorns : MonoBehaviour
 {
-    public int collisionDamage = 5;
     public string collisionTag;
 
     private void OnCollisionEnter2D(Collision2D coll) 
@@ -12,7 +11,7 @@ public class Thorns : MonoBehaviour
         if (coll.gameObject.tag == collisionTag)
         {
             PlayerHealth health = coll.gameObject.GetComponent<PlayerHealth>();
-            health.ReduceHealth(collisionDamage);
+            health.ReduceHealth();
         }
     }
 
@@ -20,7 +19,7 @@ public class Thorns : MonoBehaviour
         if (other.gameObject.tag == collisionTag)
         {
             PlayerHealth health = other.gameObject.GetComponent<PlayerHealth>();
-            health.ReduceHealth(collisionDamage);
+            health.ReduceHealth();
         }
     }
 }

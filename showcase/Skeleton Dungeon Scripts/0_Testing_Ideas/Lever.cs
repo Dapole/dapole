@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Lever : MonoBehaviour
 {
-    public ActivateAct actObject;
+    [SerializeField] private GameObject actObject;
+
+    private IDoor door;
+    private ActivateAct activateAct;
     
     private Animator animator;
     
@@ -13,7 +16,18 @@ public class Lever : MonoBehaviour
         animator = GetComponent<Animator>();
         if (actObject != null)
         {
-            actObject.GetComponent<ActivateAct>();
+            if (actObject.tag == "Door")
+            {
+                door = actObject.GetComponent<IDoor>();
+            }
+            if (actObject.tag == "ActActive")
+            {
+                activateAct = actObject.GetComponent<ActivateAct>();
+            }
+        }
+        else
+        {
+            Destroy(this);
         }
     }
 
@@ -21,13 +35,44 @@ public class Lever : MonoBehaviour
     {
         if (actObject != null)
         {
-            actObject.Activate();
-            animator.SetTrigger("activate");
+            if (actObject.tag == "Door")
+            {
+                door.ToggleDoor();
+            }
+            if (actObject.tag == "ActActive")
+            {
+                activateAct.Activate();
+            }
+            if (animator != null)
+            {
+                animator.SetTrigger("activate");
+            }
         }
         else
         {
             Debug.Log("Not work" + gameObject.name + "actObject = NULL");
         }
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            if (actObject != null)
+            {
+
+            }
+            else
+            {
+            Debug.Log("Not work" + gameObject.name + "actObject = NULL");
+            }
+        }
+        if (other.gameObject.tag == "Arrow")
+        {
+            ActivateLever();
+            Arrow arrow = other.GetComponent<Arrow>();
+            Destroy(arrow);
+        }
     }
 }

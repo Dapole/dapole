@@ -18,4 +18,16 @@ public class LeverFinish : MonoBehaviour
         finish.Activate();
         animator.SetTrigger("activate");
     }
+
+    public void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                animator.SetTrigger("activate");
+                finish.Activate();
+            } 
+        }
+    }
 }

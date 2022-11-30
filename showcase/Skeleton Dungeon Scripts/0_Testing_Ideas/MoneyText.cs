@@ -2,19 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class MoneyText : MonoBehaviour
 {
     public static int Coin;
-    Text text;
+    public TextMeshProUGUI coinTextUI;
 
     void Start()
     {
-        text = GetComponent<Text>();        
+        coinTextUI = GetComponent<TextMeshProUGUI>();
     }
 
     void Update()
     {
-        text.text = Coin.ToString();
+        coinTextUI.text = Coin.ToString();
     }
 }

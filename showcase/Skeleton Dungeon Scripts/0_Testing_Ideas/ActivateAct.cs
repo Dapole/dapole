@@ -4,24 +4,22 @@ using UnityEngine;
 
 public class ActivateAct : MonoBehaviour
 {
-    private Animator animator;
+    [SerializeField] private GameObject _activetGO;
+    [SerializeField] private GameObject _hideGO;
     private bool isActivated = false;
-
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-    }
-
-    void Update()
-    {
-        if (isActivated)
-        {
-           animator.SetTrigger("activate");
-        }
-    }
 
     public void Activate()
     {
         isActivated = true;
+        if (_activetGO != null)
+        {
+            _activetGO.SetActive(true);
+        }
+        if (_hideGO != null)
+        {
+            _hideGO.SetActive(false);
+        }
+        
+        
     }
 }
