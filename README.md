@@ -1,5 +1,5 @@
 ### Привет, меня зовут Денис 👋
-Junior Unity Developer<br>
+Game Designer<br>
 🌐 <a href="https://docs.google.com/document/d/1BLlTkmKgc9YtZyXhoLxjqEJGSeKQg3KhLxpIpFQkvLk">CV</a><br>
 🔭 Сейчас я работаю над своей игрой на движке Unity: "Skeleton Dungeon" – 2D-платформер в средневековом сеттинге.<br>
 На <a href="https://github.com/Dapole/dapole/tree/main/showcase">GitHub</a> представлен пример моего кода "как есть". Это не финальный вариант, а процесс работы над проектом.<br>И учебный проект "Space Shooter" который я делаю в рамках курса <a href="https://www.udemy.com/course/the-ultimate-guide-to-game-development-with-unity/">The Ultimate Guide to Game Development with Unity (Official)</a> <br><br>
