@@ -1,26 +1,22 @@
-### Привет, меня зовут Денис 👋
-Game Designer<br>
-🌐 <a href="https://docs.google.com/document/d/1BLlTkmKgc9YtZyXhoLxjqEJGSeKQg3KhLxpIpFQkvLk">CV</a><br>
-
-Прошел курсы:
+### Hello! I'm Denis, I'm a game designer who can write code. 👋
+<br>
+🌐 <a href="https://docs.google.com/document/d/1P_Re7y_EZUPrQXUPKuAYEk_dmtx3aqrCx6rHbe28ipE">Portfolio</a><br>
+Completed several courses:
 <p><a href="https://www.devtodev.com/education/online-course/certificate/hI0a0al_slW3paW9NGv28A">Certificate</a> of completion "Introduction to Game Development"</p>
 <p><a href="https://www.devtodev.com/education/online-course/certificate/lZ8a0al_slS_paO0P23y8A">Certificate</a> of completion "Game Design"</p>
 <p><a href="https://www.udemy.com/certificate/UC-f498d380-3e5a-4a67-bbd1-4bfe7b474fa7/">Certificate</a> of completion "Complete Course. Building a 2D Platformer with Unity | 2020"</p>
 <br>
-⚡ Чем владею:
+⚡ My skills:
 <details>
-	<summary>Basic C#</summary>
+<summary>Game Design</summary>
    <ul>
-      <li>Basic data types</li>
-      <li>Variables and Functions</li>
-      <li>If Statements</li>
-      <li>Loops (for and foreach)</li>
-      <li>Scope and Access Modifiers</li>
-      <li>Arrays</li>
-      <li>Enumerations</li>
-      <li>Switch</li>
-      <li>Interfaces</li>
-      <li>Coroutines</li>
+      <li>Created game design documentation, from visions to detailed features description;</li>
+      <li>Lead the design and development of individual features;</li>
+      <li>creation the interactive game scenarios;</li>
+      <li>Managed the team;</li>
+      <li>Created content and features in Unity;</li>
+      <li>Development and implementation of game mechanics;</li>
+      <li>AI System (Controller, AI Perception, Behavior Tree, EQS)</li>
     </ul>
 </details>
 <details>
@@ -42,8 +38,23 @@ Game Designer<br>
       <li>Vector3</li>
    </ul>
 </details>
-<br>
-<p>Подробная информация о моем игровом опыте в таблице <a href="https://goo.su/9wdl">https://goo.su/9wdl</a></p>
+<details>
+<summary>Basic C#</summary>
+   <ul>
+      <li>Basic data types</li>
+      <li>Variables and Functions</li>
+      <li>If Statements</li>
+      <li>Loops (for and foreach)</li>
+      <li>Scope and Access Modifiers</li>
+      <li>Arrays</li>
+      <li>Enumerations</li>
+      <li>Switch</li>
+      <li>Interfaces</li>
+      <li>Coroutines</li>
+    </ul>
+</details>
+
+
 <br>
 <p>📫 How to reach me:<br>
   <a href="https://t.me/DAPole">
@@ -59,6 +70,8 @@ Game Designer<br>
 
 <!--
 	  Скрытая часть
+<br>
+<p>Подробная информация о моем игровом опыте в таблице <a href="https://goo.su/9wdl">https://goo.su/9wdl</a></p>
 
 🔭 Сейчас я работаю над своей игрой на движке Unity: "Skeleton Dungeon" – 2D-платформер в средневековом сеттинге.<br>
 На <a href="https://github.com/Dapole/dapole/tree/main/showcase">GitHub</a> представлен пример моего кода "как есть". Это не финальный вариант, а процесс работы над проектом.<br>И учебный проект "Space Shooter" который я делаю в рамках курса <a href="https://www.udemy.com/course/the-ultimate-guide-to-game-development-with-unity/">The Ultimate Guide to Game Development with Unity (Official)</a> <br><br>
