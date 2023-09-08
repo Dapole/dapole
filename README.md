@@ -16,7 +16,7 @@ Completed several courses:
       <li>Managed the team;</li>
       <li>Created content and features in Unity;</li>
       <li>Development and implementation of game mechanics;</li>
-      <li>AI System (Controller, AI Perception, Behavior Tree, EQS)</li>
+      <li>AI System (Controller, AI Perception, Behavior Tree)</li>
     </ul>
 </details>
 <details>
