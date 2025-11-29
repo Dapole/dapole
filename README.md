@@ -96,14 +96,8 @@ https://docs.google.com/document/d/1P_Re7y_EZUPrQXUPKuAYEk_dmtx3aqrCx6rHbe28ipE
 
 ## 📊 GitHub Stats
 
-<p align='center'>
-   <a href="https://github-readme-stats.vercel.app/api?username=Dapole&show_icons=true&count_private=true">
-       <img height=150 src="https://github-readme-stats.vercel.app/api?username=Dapole&show_icons=true&count_private=true"/>
-   </a>
-   <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=Dapole&layout=compact">
-       <img height=150 src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dapole&layout=compact"/>
-   </a>
-</p>
+![Denis GitHub stats](https://github-readme-stats.vercel.app/api?username=Dapole&show_icons=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dapole&layout=compact)
 
 ---
 
