@@ -107,7 +107,4 @@ https://docs.google.com/document/d/1P_Re7y_EZUPrQXUPKuAYEk_dmtx3aqrCx6rHbe28ipE
 
 ---
 
-## 🌌 Tagline
-> **Design. Build. Iterate. Create experiences players remember.**
-
 © 2025 Denis Poleshchikov (GDMage)
