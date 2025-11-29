@@ -96,7 +96,8 @@ https://docs.google.com/document/d/1P_Re7y_EZUPrQXUPKuAYEk_dmtx3aqrCx6rHbe28ipE
 
 ## 📊 GitHub Stats
 
-![Denis GitHub stats](https://github-readme-stats.vercel.app/api?username=Dapole&show_icons=true)
+![Denis GitHub stats](https://github-readme-stats.vercel.app/api?username=Dapole)
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dapole&layout=compact)
 
 ---
