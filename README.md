@@ -1,4 +1,4 @@
-# 🎮 Denis Poleshchikov — Game Designer & Unity Developer
+# 🎮 Denis Poleshchikov — Indie Game Developer & Designer
 
 > *“Designing clear systems, building strong gameplay, and delivering features that players feel.”*
 
@@ -91,14 +91,6 @@ https://docs.google.com/document/d/1P_Re7y_EZUPrQXUPKuAYEk_dmtx3aqrCx6rHbe28ipE
        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
-
----
-
-## 📊 GitHub Stats
-
-![Denis GitHub stats](https://github-readme-stats.vercel.app/api?username=Dapole)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dapole&layout=compact)
 
 ---
 
